@@ -1,0 +1,185 @@
+﻿Build started 8/21/2013 4:55:23 PM.
+     1>Project "G:\GitHub\ReId_RankSVM\ReId_svm_lib\ReId_svm_lib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IG:\GitHub\ReId_RankSVM\\rank_svm /I"C:\Program Files\MATLAB\R2012a\extern\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt ..\rank_svm\svm_light\pr_loqo\pr_loqo.c ..\rank_svm\svm_light\svm_common.cpp ..\rank_svm\svm_light\svm_learn.cpp ..\rank_svm\svm_light\svm_loqo.cpp ..\rank_svm\svm_struct\svm_struct_classify.cpp ..\rank_svm\svm_struct\svm_struct_common.cpp ..\rank_svm\svm_struct\svm_struct_learn.cpp ..\rank_svm\svm_struct\svm_struct_main.cpp ..\rank_svm\svm_struct_api.c ReId_svm_lib.cpp test.cpp
+         test.cpp
+     1>g:\github\reid_ranksvm\reid_svm_lib\ReId_svm_lib.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+         ReId_svm_lib.cpp
+     1>g:\github\reid_ranksvm\reid_svm_lib\ReId_svm_lib.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>ReId_svm_lib.cpp(43): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>ReId_svm_lib.cpp(27): warning C4101: 'personImgsPtr' : unreferenced local variable
+     1>ReId_svm_lib.cpp(27): warning C4101: 'elementPtr' : unreferenced local variable
+     1>ReId_svm_lib.cpp(338): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>ReId_svm_lib.cpp(459): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>ReId_svm_lib.cpp(775): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>ReId_svm_lib.cpp(1013): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xutility(2646): warning C4800: 'const int' : forcing value to bool 'true' or 'false' (performance warning)
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xutility(2669) : see reference to function template instantiation 'void std::_Fill<_Iter,_Ty>(_FwdIt,_FwdIt,const _Ty &)' being compiled
+                 with
+                 [
+                     _Iter=bool *,
+                     _Ty=int,
+                     _FwdIt=bool *
+                 ]
+                 ReId_svm_lib.cpp(733) : see reference to function template instantiation 'void std::fill<bool*,int>(_FwdIt,_FwdIt,const _Ty &)' being compiled
+                 with
+                 [
+                     _FwdIt=bool *,
+                     _Ty=int
+                 ]
+         svm_struct_api.c
+     1>..\rank_svm\svm_struct_api.c(684): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>..\rank_svm\svm_struct_api.c(706): warning C4065: switch statement contains 'default' but no 'case' labels
+         svm_struct_main.cpp
+     1>..\rank_svm\svm_struct\svm_struct_main.cpp(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_struct\svm_struct_main.cpp(128): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_struct\svm_struct_main.cpp(129): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_struct\svm_struct_main.cpp(156): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_struct\svm_struct_main.cpp(157): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_struct\svm_struct_main.cpp(163): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_struct\svm_struct_main.cpp(183): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_struct\svm_struct_main.cpp(184): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_struct\svm_struct_main.cpp(198): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_struct\svm_struct_main.cpp(200): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_struct\svm_struct_main.cpp(430): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_struct\svm_struct_main.cpp(431): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_struct\svm_struct_main.cpp(458): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+         svm_struct_learn.cpp
+     1>..\rank_svm\svm_struct\svm_struct_learn.cpp(277): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\rank_svm\svm_struct\svm_struct_learn.cpp(518): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+         svm_struct_common.cpp
+         svm_struct_classify.cpp
+     1>..\rank_svm\svm_struct\svm_struct_classify.cpp(83): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>..\rank_svm\svm_struct\svm_struct_classify.cpp(138): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_struct\svm_struct_classify.cpp(139): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_struct\svm_struct_classify.cpp(149): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_struct\svm_struct_classify.cpp(162): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_struct\svm_struct_classify.cpp(163): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_struct\svm_struct_classify.cpp(165): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+         svm_loqo.cpp
+         svm_learn.cpp
+     1>..\rank_svm\svm_light\svm_learn.cpp(3560): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\rank_svm\svm_light\svm_learn.cpp(3913): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\rank_svm\svm_light\svm_learn.cpp(3960): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\rank_svm\svm_light\svm_learn.cpp(4167): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>..\rank_svm\svm_light\svm_learn.cpp(4206): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+         svm_common.cpp
+     1>..\rank_svm\svm_light\svm_common.cpp(159): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_light\svm_common.cpp(209): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\rank_svm\svm_light\svm_common.cpp(218): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_light\svm_common.cpp(426): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+     1>..\rank_svm\svm_light\svm_common.cpp(432): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+     1>..\rank_svm\svm_light\svm_common.cpp(440): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\rank_svm\svm_light\svm_common.cpp(449): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+     1>..\rank_svm\svm_light\svm_common.cpp(455): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+     1>..\rank_svm\svm_light\svm_common.cpp(603): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+     1>..\rank_svm\svm_light\svm_common.cpp(624): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\rank_svm\svm_light\svm_common.cpp(633): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\rank_svm\svm_light\svm_common.cpp(760): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+     1>..\rank_svm\svm_light\svm_common.cpp(769): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_light\svm_common.cpp(806): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_light\svm_common.cpp(1073): warning C4101: 'i' : unreferenced local variable
+     1>..\rank_svm\svm_light\svm_common.cpp(1187): warning C4101: 'sum' : unreferenced local variable
+     1>..\rank_svm\svm_light\svm_common.cpp(1261): warning C4101: 'sum' : unreferenced local variable
+     1>..\rank_svm\svm_light\svm_common.cpp(1634): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>..\rank_svm\svm_light\svm_common.cpp(1710): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>..\rank_svm\svm_light\svm_common.cpp(1713): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : see declaration of 'fscanf'
+     1>..\rank_svm\svm_light\svm_common.cpp(1718): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : see declaration of 'fscanf'
+     1>..\rank_svm\svm_light\svm_common.cpp(1719): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : see declaration of 'fscanf'
+     1>..\rank_svm\svm_light\svm_common.cpp(1720): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : see declaration of 'fscanf'
+     1>..\rank_svm\svm_light\svm_common.cpp(1721): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : see declaration of 'fscanf'
+     1>..\rank_svm\svm_light\svm_common.cpp(1722): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : see declaration of 'fscanf'
+     1>..\rank_svm\svm_light\svm_common.cpp(1723): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : see declaration of 'fscanf'
+     1>..\rank_svm\svm_light\svm_common.cpp(1725): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : see declaration of 'fscanf'
+     1>..\rank_svm\svm_light\svm_common.cpp(1726): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : see declaration of 'fscanf'
+     1>..\rank_svm\svm_light\svm_common.cpp(1727): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : see declaration of 'fscanf'
+     1>..\rank_svm\svm_light\svm_common.cpp(1728): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : see declaration of 'fscanf'
+     1>..\rank_svm\svm_light\svm_common.cpp(1853): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>..\rank_svm\svm_light\svm_common.cpp(1933): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : see declaration of 'sscanf'
+     1>..\rank_svm\svm_light\svm_common.cpp(1942): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : see declaration of 'sscanf'
+     1>..\rank_svm\svm_light\svm_common.cpp(1950): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : see declaration of 'sscanf'
+     1>..\rank_svm\svm_light\svm_common.cpp(1954): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : see declaration of 'sscanf'
+     1>..\rank_svm\svm_light\svm_common.cpp(1964): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : see declaration of 'sscanf'
+     1>..\rank_svm\svm_light\svm_common.cpp(1968): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : see declaration of 'sscanf'
+     1>..\rank_svm\svm_light\svm_common.cpp(2003): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>..\rank_svm\svm_light\svm_common.cpp(2011): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : see declaration of 'fscanf'
+     1>..\rank_svm\svm_light\svm_common.cpp(2028): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_light\svm_common.cpp(2029): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_light\svm_common.cpp(2055): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\rank_svm\svm_light\svm_common.cpp(2122): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+         pr_loqo.c
+     1>..\rank_svm\svm_light\pr_loqo\pr_loqo.c(294): warning C4101: 'step' : unreferenced local variable
+     1>..\rank_svm\svm_light\pr_loqo\pr_loqo.c(299): warning C4101: 'k' : unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\GitHub\ReId_RankSVM\bin\ReId_svm_lib.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\MATLAB\R2012a\extern\lib\win64\microsoft" /LIBPATH:"C:\Program Files\MATLAB\R2012a\bin\win64" libmx.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\GitHub\ReId_RankSVM\bin\ReId_svm_lib.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\GitHub\ReId_RankSVM\bin\ReId_svm_lib.lib" /MACHINE:X64 x64\Debug\pr_loqo.obj
+         x64\Debug\svm_common.obj
+         x64\Debug\svm_learn.obj
+         x64\Debug\svm_loqo.obj
+         x64\Debug\svm_struct_classify.obj
+         x64\Debug\svm_struct_common.obj
+         x64\Debug\svm_struct_learn.obj
+         x64\Debug\svm_struct_main.obj
+         x64\Debug\svm_struct_api.obj
+         x64\Debug\ReId_svm_lib.obj
+         x64\Debug\test.obj
+         ReId_svm_lib.vcxproj -> G:\GitHub\ReId_RankSVM\bin\ReId_svm_lib.exe
+     1>Done Building Project "G:\GitHub\ReId_RankSVM\ReId_svm_lib\ReId_svm_lib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.10

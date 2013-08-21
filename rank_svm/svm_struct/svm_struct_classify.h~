@@ -1,0 +1,20 @@
+#include <stdio.h>
+#ifdef __cplusplus
+extern "C" {
+#endif
+#include "../svm_light/svm_common.h"
+#ifdef __cplusplus
+}
+#endif
+#include "../svm_struct_api.h"
+#include "svm_struct_common.h"
+
+
+void read_input_parameters(int, char **, char *, char *, char *, 
+			   STRUCT_LEARN_PARM *, long*, long *);
+void print_help(void);
+
+
+int svm_struct_classify_main (int argc, char* argv[]);
+
+#endif

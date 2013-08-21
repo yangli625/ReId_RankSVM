@@ -1,0 +1,27 @@
+#ifndef SVM_STRUCT_MAIN
+#define SVM_STRUCT_MAIN
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+#include "../svm_light/svm_common.h"
+#include "../svm_light/svm_learn.h"
+#ifdef __cplusplus
+}
+#endif
+# include "svm_struct_learn.h"
+# include "svm_struct_common.h"
+# include "../svm_struct_api.h"
+
+#include <stdio.h>
+#include <string.h>
+#include <assert.h>
+
+void   read_input_parameters_learn(int, char **, char *, char *,long *, long *,
+			     STRUCT_LEARN_PARM *, LEARN_PARM *, KERNEL_PARM *,
+			     int *);
+void   wait_any_key();
+void   print_help_learn();
+
+
+int svm_struct_main (int argc, char* argv[]);

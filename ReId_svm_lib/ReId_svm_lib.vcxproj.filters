@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="rank_svm">
+      <UniqueIdentifier>{d47a4e12-213b-4f77-b438-c83aac8fd67d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rank_svm\svm_light">
+      <UniqueIdentifier>{079c5a90-52f9-4b81-aa37-39a7c2a9ba12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rank_svm\svm_struct">
+      <UniqueIdentifier>{751d0b57-4c1a-488b-a9d9-51bbdf83f0a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rank_svm\svm_light\pr_loqo">
+      <UniqueIdentifier>{7d431b5a-a729-45b0-b9b3-e3db87de09fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ReId_svm_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rank_svm\svm_light\svm_learn.h">
+      <Filter>rank_svm\svm_light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rank_svm\svm_light\svm_common.h">
+      <Filter>rank_svm\svm_light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rank_svm\svm_light\pr_loqo\pr_loqo.h">
+      <Filter>rank_svm\svm_light\pr_loqo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rank_svm\svm_struct\svm_struct_learn.h">
+      <Filter>rank_svm\svm_struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rank_svm\svm_struct\svm_struct_main.h">
+      <Filter>rank_svm\svm_struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rank_svm\svm_struct\svm_struct_classify.h">
+      <Filter>rank_svm\svm_struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rank_svm\svm_struct\svm_struct_common.h">
+      <Filter>rank_svm\svm_struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rank_svm\svm_light\kernel.h">
+      <Filter>rank_svm\svm_light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rank_svm\svm_struct_api.h">
+      <Filter>rank_svm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ReId_svm_lib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rank_svm\svm_light\pr_loqo\pr_loqo.c">
+      <Filter>rank_svm\svm_light\pr_loqo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rank_svm\svm_light\svm_loqo.cpp">
+      <Filter>rank_svm\svm_light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rank_svm\svm_light\svm_learn.cpp">
+      <Filter>rank_svm\svm_light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rank_svm\svm_light\svm_common.cpp">
+      <Filter>rank_svm\svm_light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rank_svm\svm_struct\svm_struct_main.cpp">
+      <Filter>rank_svm\svm_struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rank_svm\svm_struct\svm_struct_learn.cpp">
+      <Filter>rank_svm\svm_struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rank_svm\svm_struct\svm_struct_common.cpp">
+      <Filter>rank_svm\svm_struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rank_svm\svm_struct\svm_struct_classify.cpp">
+      <Filter>rank_svm\svm_struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rank_svm\svm_struct_api.c">
+      <Filter>rank_svm</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
